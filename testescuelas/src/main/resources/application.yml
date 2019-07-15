@@ -1,0 +1,14 @@
+server:
+  port: 8083
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/SchoolDB
+    #url: jdbc:postgresql://http://127.0.0.1:55358/browser/ProjectA
+    username: postgres
+    password: Abdiel03
+    # JPA properties
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
